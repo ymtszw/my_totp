@@ -1,0 +1,4 @@
+%{
+  "eqrcode": {:hex, :eqrcode, "0.1.7", "2c6674e0c22854355b0adc2e6c987a3a973c31eeb49870e72a1e463317d59014", [:mix], [], "hexpm", "391c7945e8a079e9b4aef3f98d601575213ae4d78a3098542d6f39358627100f"},
+  "nimble_totp": {:hex, :nimble_totp, "0.1.0", "83fc36f02f40225b993deef22f8f1cee08d629b6f4f71ad3b0866af6d6db4f18", [:mix], [], "hexpm", "752231b045cbce515893b0b3403985329c73128c12597611bbf764253e4f4be7"},
+}
