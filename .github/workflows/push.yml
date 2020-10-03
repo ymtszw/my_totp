@@ -1,0 +1,13 @@
+name: push
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-elixir@v1
+        with:
+          otp-version: "23.1.1"
+          elixir-version: "1.10.4"
+      - run: mix deps.get
+      - run: mix test
